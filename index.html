@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 px-3">
+                <div class="form_item">
+                    <p style="margin-bottom: 0">Nhập ngày tháng năm :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="date" type="text" placeholder="date" />
+                        <input class="form_input1" id="month" type="text" placeholder="month" />
+                        <input class="form_input1" id="year" type="text" placeholder="year" />
+                    </div>
+                    <button id="btn2" type="button" class="btn btn-success">
+                        Previous day
+                    </button>
+                    <button id="btn1" type="button" class="btn btn-success">
+                        Next day
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-6 px-3">
+                <div class="form_item">
+                    <p style="margin-bottom: 0">Nhập số có 3 chữ số :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="number3" type="text" />
+                    </div>
+                    <button id="btn4" type="button" class="btn btn-success">
+                        Kết quả
+                    </button>
+                    <p style="display: inline-block">&nbsp; &nbsp; (Số dạng Chữ viết)</p>
+                    <div class="form_row">
+                        <input class="form_input" id="check3" type="text" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-6 px-3">
+                <div class="form_item">
+                    <p style="margin-bottom: 0">Nhập tháng năm :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="month1" type="text" placeholder="month" />
+                        <input class="form_input1" id="year1" type="text" placeholder="year" />
+                    </div>
+                    <button id="btn3" type="button" class="btn btn-success">
+                        Kiểm tra
+                    </button>
+                    <br>
+                    <p style="display: inline-block">&nbsp; &nbsp; (Năm nhuần Yes/No)</p>
+                    <div class="form_row">
+                        <input class="form_input" id="check1" type="text" />
+                    </div>
+                    <p style="display: inline-block">&nbsp; &nbsp; (Sô ngày của tháng)</p>
+                    <div class="form_row">
+                        <input class="form_input" id="check2" type="text" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6 px-3">
+                <div class="form_item">
+                    <p style="margin-bottom: 0">Vị trí sinh viên 1 :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="KD1" type="text" placeholder="N" />
+                        <input class="form_input1" id="VD1" type="text" placeholder="E" />
+                    </div>
+                    <p style="margin-bottom: 0">Vị trí sinh viên 2 :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="KD2" type="text" placeholder="N" />
+                        <input class="form_input1" id="VD2" type="text" placeholder="E" />
+                    </div>
+                    <p style="margin-bottom: 0">Vị trí sinh viên 3 :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="KD3" type="text" placeholder="N" />
+                        <input class="form_input1" id="VD3" type="text" placeholder="E" />
+                    </div>
+                    <p style="margin-bottom: 0">Vị trí Trường ĐH :</p>
+                    <div class="form_row">
+                        <input class="form_input1" id="KD" type="text" placeholder="N" />
+                        <input class="form_input1" id="VD" type="text" placeholder="E" />
+                    </div>
+                    <button id="btn7" type="button" class="btn btn-success">
+                        Kiểm tra
+                    </button>
+                    <br>
+                    <p style="display: inline-block">&nbsp; &nbsp; Sinh viên xa trường nhất </p>
+                    <div class="form_row">
+                        <input class="form_input" id="check7" type="text" />
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- <div class="col-6 px-3">
+        <div class="form_item">
+          <p style="margin-bottom: 0">Ai sử dụng máy:</p>
+          <div class="form_row">
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" id="b1" name="optradio">Bố
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" id="b2" name="optradio">Mẹ
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" id="b3" name="optradio">Anh trai
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" id="b4" name="optradio">Em gái
+              </label>
+            </div>
+          </div>
+          <button id="btn2" type="button" class="btn btn-success">
+            Kết quả
+          </button> -->
+        <!-- <div class="form_row">
+                  <input class="form_input" id="sxtt" type="text" />  
+                </div> -->
+        <!-- </div>
+      </div>
+    </div> -->
+
+        <!-- <div class="row">
+      <div class="col-6 px-3">
+        <div class="form_item">
+          <p style="margin-bottom: 0">Nhập 3 số nguyên :</p>
+          <div class="form_row">
+            <input class="form_input1" id="sn4" type="text" />
+            <input class="form_input1" id="sn5" type="text" />
+            <input class="form_input1" id="sn6" type="text" />
+          </div>
+          <button id="btn3" type="button" class="btn btn-success">
+            Kết quả
+          </button>
+          <p style="display: inline-block">&nbsp; &nbsp; (Số chẵn / Số lẻ)</p>
+          <div class="form_row">
+            <input class="form_input" id="scsl" type="text" />
+          </div>
+        </div>
+      </div> -->
+
+        <!-- 
+      <div class="col-6 px-3">
+        <div class="form_item">
+          <p style="margin-bottom: 0">Nhập 3 cạnh tam giác (mm):</p>
+          <div class="form_row">
+            <input class="form_input1" id="c1" type="text" />
+            <input class="form_input1" id="c2" type="text" />
+            <input class="form_input1" id="c3" type="text" />
+          </div>
+          <button id="btn4" type="button" class="btn btn-success">
+            Kết quả
+          </button>
+          <div class="form_row">
+            <input class="form_input" id="tamgiac" type="text" />
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+
+    </div>
+    </div>
+    <!-- <input type="text">
+    <button type="button" class="btn">Basic</button>
+       -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
